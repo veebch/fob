@@ -6,6 +6,8 @@
 
 A few lines of code that will generate a small bmp qr code that can then be transferred from a smartphone (which can run out of power) to an epaper key-fob (that does not have a battery, so will never run out of power).
 
+The code has been tested on a Swiss Covid Vaccination certificate, but the same method could be used to encode any information in a qr code. 
+
 It uses one of these: LINK TO FOB.
 
 ## Installation
