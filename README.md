@@ -13,7 +13,7 @@ It uses one of these: LINK TO FOB. Tested on Swiss covid certificate only.
 Install the required module, clone this repositiory, move into the cloned directory and copy the example config file with 
 ```
 pip3 install qrcode
-git clone https:github.com/veebch/fob
+git clone https://github.com/veebch/fob
 cd fob
 cp config_example.yaml config.yaml
 ```
