@@ -18,8 +18,8 @@ try:
     img.save(os.path.join(picdir,"certificateqr.bmp")) # save the image so that it can be transferred using an app
     print('Encoded the string from config.yaml into the QR code in the file certificateqr.bmp')
 except IOError as e:
-    logging.info(e)
+    print(e)
     
 except KeyboardInterrupt:    
-    logging.info("ctrl + c:")
+    print("ctrl + c:")
     exit()
