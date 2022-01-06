@@ -1,5 +1,6 @@
 # The confidential string file
 config.yaml
+certificateqr.bmp
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
