@@ -6,9 +6,10 @@ A few lines of code that will generate a small bmp qr code that can then be tran
 
 ## Installation
 
-Clone this repositiory with 
+Clone this repositiory and move into the cloned directory with 
 ```
-git clone https:github.com/veebch/fobber
+git clone https:github.com/veebch/fobbed
+cd fobbed
 ```
 
 ## Code Generation
