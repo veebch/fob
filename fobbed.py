@@ -3,7 +3,6 @@
 import sys
 import os
 import qrcode
-import time
 import yaml
 from PIL import Image,ImageDraw,ImageFont
 picdir = os.path.dirname(os.path.realpath(__file__))
@@ -17,7 +16,7 @@ try:
     img = qrcode.make(qrstring,border=2)    
     img.thumbnail((200,200)) # resize to match the dimensions of the epaper    
     img.save(os.path.join(picdir,"certificateqr.bmp")) # save the image so that it can be transferred using an app
-
+    print('Encoded the string from config.yaml into the QR code in the file certificateqr.bmp')
 except IOError as e:
     logging.info(e)
     
