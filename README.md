@@ -4,9 +4,9 @@
 
 # Fob 
 
-A few lines of code that will generate a small bmp qr code that can then be transferred to an epaper key-fob, so you have a copy of the latest version of your vaccination certificate on your key-chain.
+A few lines of code that will generate a small bmp qr code that can then be transferred from a smartphone (which can run out of power) to an epaper key-fob (that does not have a battery, so will never run out of power).
 
-It uses one of these: LINK TO FOB. Tested on Swiss covid certificate only.
+It uses one of these: LINK TO FOB.
 
 ## Installation
 
