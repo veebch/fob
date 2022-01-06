@@ -2,7 +2,9 @@
 
 # Fobbed 
 
-- Scan your Swiss(?) covid certificate QR code.
+A few lines of code that will generate a small bmp qr code that can then be transferred to an epd keyfob, so you have a copy of the latest version of your certificate on your keychain. It uses one of these: LINK TO FOB
+
+- Scan your covid certificate QR code.
 
 - It will produce a long string. Put the string  (It starts with HC1:) into the file config.yaml
 
