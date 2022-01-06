@@ -19,7 +19,3 @@ try:
     print('Encoded the string from config.yaml into the QR code in the file certificateqr.bmp')
 except IOError as e:
     print(e)
-    
-except KeyboardInterrupt:    
-    print("ctrl + c:")
-    exit()
