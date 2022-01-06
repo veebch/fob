@@ -34,4 +34,4 @@ cp config_example.yaml config.yaml
 
 ## License
 
-Published under a GPL 3.0 licence
+Code published under a GPL 3.0 licence
