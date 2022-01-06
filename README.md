@@ -6,8 +6,9 @@ A few lines of code that will generate a small bmp qr code that can then be tran
 
 ## Installation
 
-Clone this repositiory and move into the cloned directory with 
+Install the required module, clone this repositiory and move into the cloned directory with 
 ```
+pip3 install qrcode
 git clone https:github.com/veebch/fobbed
 cd fobbed
 ```
