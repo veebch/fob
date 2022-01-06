@@ -24,9 +24,9 @@ cp config_example.yaml config.yaml
 
 ## Code Generation
 
-- Scan your covid certificate QR code (eg using an app on a smartphone).
+- Scan your QR code (eg your covid vaccination certificate, using an QR-code reader app on a smartphone).
 
-- Scanning will produce a long string of text. Put the text  (It starts with HC1:) into the file config.yaml and save it. 
+- Scanning will produce a long string of text. Place this string of text into the file `config.yaml` and save it. 
 
 - Run the code `python3 fob.py`
 
