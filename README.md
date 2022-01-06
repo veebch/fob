@@ -30,7 +30,7 @@ cp config_example.yaml config.yaml
 
 - Run the code `python3 fob.py`
 
-- The code will generate a 200x200 bmp image file (called `certificateqr.bmp`) that you can now copy to the keyfob using an app (iPhone | Android)
+- The code will generate a 200x200 bmp image file (called `certificateqr.bmp`) that you can now copy to the fob using an app ( [iPhone](https://apps.apple.com/us/app/nfc-e-tag/id1518982217) | [Android](https://www.waveshare.com/w/upload/NFCTag_EN.apk))
 
 ## License
 
