@@ -8,6 +8,8 @@ A few lines of code that will generate a small bmp qr code that can then be tran
 
 The code has been tested on a Swiss Covid Vaccination certificate, but the same method could be used to encode any information in a qr code. 
 
+## Hardware
+
 It uses one of these: LINK TO FOB.
 
 ## Installation
