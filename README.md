@@ -4,29 +4,33 @@
 
 # Fob 
 
-A few lines of code that will generate a small bmp qr code that can then be transferred to an epd keyfob, so you have a copy of the latest version of your certificate on your keychain. 
+A few lines of code that will generate a small image of a QR code. The code can then be transferred from a smartphone (which can run out of power) to an epaper key-fob (that does not have a battery, so will never run out of power).
 
-It uses one of these: LINK TO FOB. Tested on Swiss covid certificate only.
+The code has been tested on a Swiss Covid Vaccination certificate, but the same method could be used to encode any information in a QR code. 
+
+## Hardware
+
+It uses one of these: LINK TO FOB.
 
 ## Installation
 
 Install the required module, clone this repositiory, move into the cloned directory and copy the example config file with 
 ```
 pip3 install qrcode
-git clone https:github.com/veebch/fob
+git clone https://github.com/veebch/fob
 cd fob
 cp config_example.yaml config.yaml
 ```
 
 ## Code Generation
 
-- Scan your covid certificate QR code (eg using an app on a smartphone).
+- Scan your QR code eg your COVID vaccination certificate, using an QR-code reader app on a smartphone ( [iPhone](https://apps.apple.com/us/app/qr-reader-for-iphone/id368494609) | [Android](https://play.google.com/store/apps/details?id=com.gamma.scan&hl=en&gl=US) ).
 
-- Scanning will produce a long string of text. Put the text  (It starts with HC1:) into the file config.yaml and save it. 
+- Scanning will produce a long string of text. Place this string of text into the file `config.yaml` and save it. 
 
 - Run the code `python3 fob.py`
 
-- The code will generate a 200x200 bmp image file (called `certificateqr.bmp`) that you can now copy to the keyfob using an app like NFCTAG
+- The code will generate an image file (called `certificateqr.bmp`) that you can now copy to the fob using an app ( [iPhone](https://apps.apple.com/us/app/nfc-e-tag/id1518982217) | [Android](https://www.waveshare.com/w/upload/NFCTag_EN.apk) )
 
 ## License
 
