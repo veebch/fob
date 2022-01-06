@@ -2,7 +2,7 @@
 
 # Fobbed 
 
-A few lines of code that will generate a small bmp qr code that can then be transferred to an epd keyfob, so you have a copy of the latest version of your certificate on your keychain. It uses one of these: LINK TO FOB
+A few lines of code that will generate a small bmp qr code that can then be transferred to an epd keyfob, so you have a copy of the latest version of your certificate on your keychain. It uses one of these: LINK TO FOB. Tested on Swiss covid certificate only.
 
 ## Installation
 
