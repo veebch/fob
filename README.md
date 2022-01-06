@@ -27,3 +27,7 @@ cp config_example.yaml config.yaml
 - Run the code `python3 fobbed.py`
 
 - The code will generate a 200x200 bmp image file (called `certificateqr.bmp`) that you can now copy to the keyfob using an app like NFCTAG
+
+## License
+
+Published under a GPL 3.0 licence
