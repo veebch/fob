@@ -8,4 +8,4 @@
 
 - Run this code
 
-- It will generate a 200x200 bmp image file (called certificateqr.bmp) that you can now copy to the keyfob using 'APPNAME'
+- It will generate a 200x200 bmp image file (called `certificateqr.bmp`) that you can now copy to the keyfob using 'APPNAME'
