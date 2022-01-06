@@ -6,7 +6,7 @@ import qrcode
 import time
 import yaml
 from PIL import Image,ImageDraw,ImageFont
-picdir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+picdir = os.path.dirname(os.path.realpath(__file__))
 configfile = os.path.join(os.path.dirname(os.path.realpath(__file__)),'config.yaml') 
 
 try:
