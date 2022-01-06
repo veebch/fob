@@ -2,10 +2,10 @@
 
 # Fobbed 
 
-Scan your Swiss(?) covid certificate QR code.
+- Scan your Swiss(?) covid certificate QR code.
 
-It will produce a long string. Put the string  (It starts with HC1:) into the file config.yaml
+- It will produce a long string. Put the string  (It starts with HC1:) into the file config.yaml
 
-Run this code
+- Run this code
 
-It will generate a 200x200 bmp image file that you can now copy to the keyfob using 'APPNAME'
+- It will generate a 200x200 bmp image file (called certificateqr.bmp) that you can now copy to the keyfob using 'APPNAME'
