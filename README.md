@@ -10,7 +10,7 @@ The code has been tested on a Swiss Covid Vaccination certificate, but the same 
 
 ## Hardware
 
-It uses one of these: LINK TO FOB.
+It uses one of [these](https://veeb.ch/).
 
 ## Installation
 
