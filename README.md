@@ -4,7 +4,7 @@
 
 # Fob
 
-Put important QR codes onto a little always-on, never-runs-out-of-power epaper keyring.
+Put important QR codes onto a small, always-on, never-runs-out-of-power epaper keyring.
 
 This repository contains tools and intructions to do that. It has been tested on a Swiss Covid19 Vaccination certificate, but the same method could be used to encode any information in a QR code eg Boarding Pass, Concert Ticket, etc 
 
