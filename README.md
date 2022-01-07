@@ -22,7 +22,7 @@ cd fob
 cp config_example.yaml config.yaml
 ```
 
-## Running
+## Reading a QR code and transferring it to fob
 
 - Scan your QR code eg your COVID vaccination certificate, using a QR-code reader app on a smartphone ( [iPhone](https://apps.apple.com/us/app/qr-reader-for-iphone/id368494609) | [Android](https://play.google.com/store/apps/details?id=com.gamma.scan&hl=en&gl=US) )
 
