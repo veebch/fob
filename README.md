@@ -24,7 +24,7 @@ cp config_example.yaml config.yaml
 
 ## Reading a QR code and transferring it to fob
 
-- Scan your QR code eg your COVID vaccination certificate, using a QR-code reader app on a smartphone ( [iPhone](https://apps.apple.com/us/app/qr-reader-for-iphone/id368494609) | [Android](https://play.google.com/store/apps/details?id=com.gamma.scan&hl=en&gl=US) )
+- Scan your QR code (for example, a COVID vaccination certificate) using a QR-code reader app on a smartphone ( [iPhone](https://apps.apple.com/us/app/qr-reader-for-iphone/id368494609) | [Android](https://play.google.com/store/apps/details?id=com.gamma.scan&hl=en&gl=US) )
 
 - Scanning will produce a long string of text. Place this string of text into the file `config.yaml` and save it
 
