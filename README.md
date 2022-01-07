@@ -30,7 +30,7 @@ cp config_example.yaml config.yaml
 
 - Run the code `python3 fob.py`
 
-- The code will generate an image file (called `certificateqr.bmp`) that you can now copy to the fob using an app ( [iPhone](https://apps.apple.com/us/app/nfc-e-tag/id1518982217) | [Android](https://www.waveshare.com/w/upload/NFCTag_EN.apk) )
+- The code will generate an image file (called `certificateqr.bmp`) that you can now copy to the fob using an NFC writer app ( [iPhone](https://apps.apple.com/us/app/nfc-e-tag/id1518982217) | [Android](https://www.waveshare.com/w/upload/NFCTag_EN.apk) )
 
 ## License
 
