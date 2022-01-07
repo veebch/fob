@@ -2,11 +2,11 @@
 
 [![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCz5BOU9J9pB_O0B8-rDjCWQ?label=YouTube&style=social)](https://www.youtube.com/channel/UCz5BOU9J9pB_O0B8-rDjCWQ)
 
-# Fob 
+# Fob
 
-A simple program that generates an image of a QR code. The image can then be transferred from a smartphone (which can run out of power) to an epaper key-fob (that does not have a battery, so will never run out of power).
+Put important QR codes onto a little always-on, never-runs-out-of-power epaper keyring.
 
-The code has been tested on a Swiss Covid19 Vaccination certificate, but the same method could be used to encode any information in a QR code eg Boarding Pass, Concert Ticket, etc 
+This repository contains tools and intructions to do that. It has been tested on a Swiss Covid19 Vaccination certificate, but the same method could be used to encode any information in a QR code eg Boarding Pass, Concert Ticket, etc 
 
 ## Hardware
 
