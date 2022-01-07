@@ -10,7 +10,7 @@ This repository contains tools and intructions to do that. It has been tested on
 
 ## Hardware
 
-It uses one of [these](https://veeb.ch/).
+It uses one of [these](https://www.veeb.ch/store/p/fob).
 
 ## Installation
 
