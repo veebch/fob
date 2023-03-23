@@ -35,7 +35,7 @@ cp config_example.yaml config.yaml
 
 Copy to the Fob using an NFC writer app ( [iPhone](https://apps.apple.com/us/app/nfc-e-tag/id1518982217) | [Android](https://www.waveshare.com/w/upload/NFCTag_EN.apk) )
 
-(You can generate a chess puzzle image at the delightful [Yet Another Chess Puzzle Database](https://www.yacpdb.org/)
+(You can generate a chess puzzle image at the delightful [Yet Another Chess Puzzle Database](https://www.yacpdb.org/))
 
 ## License
 
