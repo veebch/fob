@@ -12,7 +12,7 @@ The method could be used to encode any information in a QR code eg Boarding Pass
 
 A NFC powered epaper display. You can get one [here](https://www.veeb.ch/store/p/fob).
 
-## QR code generation
+## Install (only needed if you want to make QR codes)
 
 This step is only needed if you are generating a QR code. If you already have an image, skip this part and go straight [here](#transferring-an-image-to-fob) .
 Install the required module, clone this repositiory, move into the cloned directory and copy the example config file with 
@@ -23,27 +23,23 @@ cd fob
 cp config_example.yaml config.yaml
 ```
 
-## Transferring an image to Fob
-
-### Image Generation
-
-#### QR code
+### QR code
 
 - Scan your QR code using a QR-code reader app on a smartphone ( [iPhone](https://apps.apple.com/us/app/qr-reader-for-iphone/id368494609) | [Android](https://play.google.com/store/apps/details?id=com.gamma.scan&hl=en&gl=US) )
 
 - Scanning the code will produce a long string of text. Place this string of text into the file `config.yaml` and save it
 
-- Run the code `python3 fob.py', this will produce an image of a QR code.
+- Run the code `python3 fob.py', this will produce an image of a QR code called `certificateqr.bmp`
 
-#### Other image
+### Other Images
 
 Scale a Black/White/Red image to a square picture. 
 
 (You can generate a chess puzzle at the delightful [Yet Another Chess Puzzle Database](https://www.yacpdb.org/)
 
-### Image upload
+## Image Transfer
 
-- The code will generate an image file (called `certificateqr.bmp`) that you can now copy to the fob using an NFC writer app ( [iPhone](https://apps.apple.com/us/app/nfc-e-tag/id1518982217) | [Android](https://www.waveshare.com/w/upload/NFCTag_EN.apk) )
+You can now copy to the fob using an NFC writer app ( [iPhone](https://apps.apple.com/us/app/nfc-e-tag/id1518982217) | [Android](https://www.waveshare.com/w/upload/NFCTag_EN.apk) )
 
 ## License
 
