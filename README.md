@@ -29,7 +29,7 @@ cp config_example.yaml config.yaml
 
 - Scanning the code will produce a long string of text. Place this string of text into the file `config.yaml` and save it
 
-- Run the code `python3 fob.py', this will produce an image of a QR code called `certificateqr.bmp`
+- Run the code `python3 fob.py`, this will produce an image of a QR code called `certificateqr.bmp`
 
 ## Image Transfer
 
