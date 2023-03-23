@@ -12,7 +12,7 @@ The method could be used to encode any information in a QR code eg Boarding Pass
 
 A NFC powered epaper display. You can get one [here](https://www.veeb.ch/store/p/fob).
 
-## Installation (only needed for QR codes)
+## QR code generation
 
 Install the required module, clone this repositiory, move into the cloned directory and copy the example config file with 
 ```
@@ -22,7 +22,7 @@ cd fob
 cp config_example.yaml config.yaml
 ```
 
-## Reading a code and transferring it to fob
+## Transferring image to fob
 
 ### Image Generation
 
