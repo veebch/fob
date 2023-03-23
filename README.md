@@ -1,4 +1,4 @@
-![Action Shot](/fobbed.jpg)
+![Action Shot](/chess.jpg)
 
 [![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCz5BOU9J9pB_O0B8-rDjCWQ?label=YouTube&style=social)](https://www.youtube.com/channel/UCz5BOU9J9pB_O0B8-rDjCWQ)
 
@@ -22,13 +22,24 @@ cd fob
 cp config_example.yaml config.yaml
 ```
 
-## Reading a QR code and transferring it to fob
 
-- Scan your QR code (for example, a COVID vaccination certificate) using a QR-code reader app on a smartphone ( [iPhone](https://apps.apple.com/us/app/qr-reader-for-iphone/id368494609) | [Android](https://play.google.com/store/apps/details?id=com.gamma.scan&hl=en&gl=US) )
+## Reading a code and transferring it to fob
+
+## Image Generation
+
+### QR code
+
+- Scan your QR code using a QR-code reader app on a smartphone ( [iPhone](https://apps.apple.com/us/app/qr-reader-for-iphone/id368494609) | [Android](https://play.google.com/store/apps/details?id=com.gamma.scan&hl=en&gl=US) )
 
 - Scanning the code will produce a long string of text. Place this string of text into the file `config.yaml` and save it
 
-- Run the code `python3 fob.py`
+- Run the code `python3 fob.py', this will produce an image of a QR code.
+
+### Other image
+
+Scale a Black/White/Red image to a 200 x 200 picture. <TODO:  Insert the url for the chess image generator>
+
+## Image upload
 
 - The code will generate an image file (called `certificateqr.bmp`) that you can now copy to the fob using an NFC writer app ( [iPhone](https://apps.apple.com/us/app/nfc-e-tag/id1518982217) | [Android](https://www.waveshare.com/w/upload/NFCTag_EN.apk) )
 
