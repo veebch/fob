@@ -14,6 +14,7 @@ A NFC powered epaper display. You can get one [here](https://www.veeb.ch/store/p
 
 ## QR code generation
 
+This step is only needed if you are generating a QR code. If you already have an image, skip this step.
 Install the required module, clone this repositiory, move into the cloned directory and copy the example config file with 
 ```
 pip3 install qrcode
@@ -22,7 +23,7 @@ cd fob
 cp config_example.yaml config.yaml
 ```
 
-## Transferring image to fob
+## Transferring an image to Fob
 
 ### Image Generation
 
