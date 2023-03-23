@@ -8,7 +8,7 @@ Tools and intructions to put important QR codes and other images onto a small, l
 
 The method could be used to encode any information in a QR code eg Boarding Pass, Concert Ticket, etc or a small image (see chess puzzle use-case in photo)
 
-## Hardware (and where to get one)
+## Hardware (and where to get a Fob)
 
 A NFC powered epaper display. You can get one [here](https://www.veeb.ch/store/p/fob).
 
