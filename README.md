@@ -14,7 +14,7 @@ A NFC powered epaper display. You can get one [here](https://www.veeb.ch/store/p
 
 ## Install (only needed if you want to make QR codes)
 
-This step is only needed if you are generating a QR code. If you already have an image, skip this part and go straight [here](#transferring-an-image-to-fob) .
+This step is only needed if you are generating a QR code. If you already have an image, skip this part and go straight [here](#image-transfer) .
 Install the required module, clone this repositiory, move into the cloned directory and copy the example config file with 
 ```
 pip3 install qrcode
@@ -35,7 +35,7 @@ cp config_example.yaml config.yaml
 
 Copy to the Fob using an NFC writer app ( [iPhone](https://apps.apple.com/us/app/nfc-e-tag/id1518982217) | [Android](https://www.waveshare.com/w/upload/NFCTag_EN.apk) )
 
-(You can generate a chess puzzle at the delightful [Yet Another Chess Puzzle Database](https://www.yacpdb.org/)
+(You can generate a chess puzzle image at the delightful [Yet Another Chess Puzzle Database](https://www.yacpdb.org/)
 
 ## License
 
