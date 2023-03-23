@@ -10,7 +10,7 @@ The method could be used to encode any information in a QR code eg Boarding Pass
 
 ## Hardware (and where to get one)
 
-It uses one of [these](https://www.veeb.ch/store/p/fob). A NFC powered epaper display.
+A NFC powered epaper display. You can get one [here](https://www.veeb.ch/store/p/fob).
 
 ## Installation
 
