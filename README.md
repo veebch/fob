@@ -23,7 +23,7 @@ cd fob
 cp config_example.yaml config.yaml
 ```
 
-## [Transferring an image to Fob]
+## Transferring an image to Fob
 
 ### Image Generation
 
