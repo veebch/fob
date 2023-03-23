@@ -31,15 +31,11 @@ cp config_example.yaml config.yaml
 
 - Run the code `python3 fob.py', this will produce an image of a QR code called `certificateqr.bmp`
 
-### Other Images
-
-Scale a Black/White/Red image to a square picture. 
-
-(You can generate a chess puzzle at the delightful [Yet Another Chess Puzzle Database](https://www.yacpdb.org/)
-
 ## Image Transfer
 
-You can now copy to the fob using an NFC writer app ( [iPhone](https://apps.apple.com/us/app/nfc-e-tag/id1518982217) | [Android](https://www.waveshare.com/w/upload/NFCTag_EN.apk) )
+Copy to the Fob using an NFC writer app ( [iPhone](https://apps.apple.com/us/app/nfc-e-tag/id1518982217) | [Android](https://www.waveshare.com/w/upload/NFCTag_EN.apk) )
+
+(You can generate a chess puzzle at the delightful [Yet Another Chess Puzzle Database](https://www.yacpdb.org/)
 
 ## License
 
