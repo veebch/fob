@@ -6,7 +6,7 @@
 
 Tools and intructions to put important QR codes and other images onto a small, light, always-on, never-runs-out-of-power epaper keyring.
 
-The method could be used to encode any information in a QR code eg Boarding Pass, Concert Ticket, etc or a small image (see chess puzzle use-case in photo)
+The method could be used to encode any information in a QR code eg Boarding Pass, Concert Ticket, etc or a small image (eg chess puzzle use-case in photo)
 
 ## Hardware (and where to get a Fob)
 
