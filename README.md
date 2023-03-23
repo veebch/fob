@@ -24,9 +24,9 @@ cp config_example.yaml config.yaml
 
 ## Reading a code and transferring it to fob
 
-## Image Generation
+### Image Generation
 
-### QR code
+#### QR code
 
 - Scan your QR code using a QR-code reader app on a smartphone ( [iPhone](https://apps.apple.com/us/app/qr-reader-for-iphone/id368494609) | [Android](https://play.google.com/store/apps/details?id=com.gamma.scan&hl=en&gl=US) )
 
@@ -34,13 +34,13 @@ cp config_example.yaml config.yaml
 
 - Run the code `python3 fob.py', this will produce an image of a QR code.
 
-### Other image
+#### Other image
 
 Scale a Black/White/Red image to a square picture. 
 
 (You can generate a chess puzzle at the delightful [Yet Another Chess Puzzle Database](https://www.yacpdb.org/)
 
-## Image upload
+### Image upload
 
 - The code will generate an image file (called `certificateqr.bmp`) that you can now copy to the fob using an NFC writer app ( [iPhone](https://apps.apple.com/us/app/nfc-e-tag/id1518982217) | [Android](https://www.waveshare.com/w/upload/NFCTag_EN.apk) )
 
