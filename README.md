@@ -4,13 +4,13 @@
 
 # Fob
 
-Tools and intructions to put important QR codes onto a small, light, always-on, never-runs-out-of-power epaper keyring.
+Tools and intructions to put important QR codes and other images onto a small, light, always-on, never-runs-out-of-power epaper keyring.
 
-Tested on a Swiss Covid19 Vaccination certificate, but the same method could be used to encode any information in a QR code eg Boarding Pass, Concert Ticket, etc 
+The method could be used to encode any information in a QR code eg Boarding Pass, Concert Ticket, etc or a small image (see chess puzzle use-case in photo)
 
 ## Hardware
 
-It uses one of [these](https://www.veeb.ch/store/p/fob).
+It uses one of [these](https://www.veeb.ch/store/p/fob). An NFC powered epaper display.
 
 ## Installation
 
@@ -21,7 +21,6 @@ git clone https://github.com/veebch/fob
 cd fob
 cp config_example.yaml config.yaml
 ```
-
 
 ## Reading a code and transferring it to fob
 
