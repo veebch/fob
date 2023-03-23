@@ -12,7 +12,7 @@ The method could be used to encode any information in a QR code eg Boarding Pass
 
 A NFC powered epaper display. You can get one [here](https://www.veeb.ch/store/p/fob).
 
-## Installation
+## Installation (only needed for QR codes)
 
 Install the required module, clone this repositiory, move into the cloned directory and copy the example config file with 
 ```
@@ -36,7 +36,9 @@ cp config_example.yaml config.yaml
 
 ### Other image
 
-Scale a Black/White/Red image to a 200 x 200 picture. <TODO:  Insert the url for the chess image generator>
+Scale a Black/White/Red image to a square picture. 
+
+(You can generate a chess puzzle at the delightful [Yet Another Chess Puzzle Database](https://www.yacpdb.org/)
 
 ## Image upload
 
