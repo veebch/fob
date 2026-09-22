@@ -33,7 +33,7 @@ cp config_example.yaml config.yaml
 
 ## Image Transfer
 
-Copy to the Fob using an NFC writer app ( [iPhone](https://apps.apple.com/us/app/nfc-e-tag/id1518982217) | [Android](https://www.waveshare.com/w/upload/NFCTag_EN.apk) )
+Copy to the Fob using an NFC writer app ([iPhone](https://apps.apple.com/us/app/e-chain/id6767170808) | [Android](https://www.waveshare.com/w/upload/NFCTag_EN.apk) )
 
 (You can generate a chess puzzle image at the delightful [Yet Another Chess Puzzle Database](https://www.yacpdb.org/))
 
